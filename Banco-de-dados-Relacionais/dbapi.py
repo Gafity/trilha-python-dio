@@ -10,7 +10,11 @@ CURSOR.row_factory = sqlite3.Row
 
 def criar_tabelas(conexao, cursor):
     cursor.execute(
-        "CREATE TABLE IF NOT EXISTS clientes(id INTEGER PRIMARY KEY AUTOINCREMENT, nome VARCHAR(100), email VARCHAR(150))"
+        """
+        CREATE TABLE IF NOT EXISTS clientes(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            nome VARCHAR(100), email VARCHAR(150);
+    )"""
     )
 
 
