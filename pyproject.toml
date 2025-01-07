@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "primeiros-passos-com-flask"
+name = "trilha-python-dio"
 version = "0.1.0"
 description = ""
-authors = ["Gabriel Lenovo Ubuntu <gafityr@gmail.com>"]
+authors = ["Gabriel Gama <gafityr@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-flask = "*"
+flask = "^3.1.0"
 
 
 [build-system]
